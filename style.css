@@ -1,0 +1,102 @@
+﻿body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fdfcfa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.sepet-btn {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main {
+    padding: 40px;
+}
+
+.kategori {
+    font-size: 24px;
+    margin-top: 30px;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.urun {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+    .urun img {
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+        border-radius: 8px;
+    }
+
+.urun-info h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.urun-info p {
+    margin: 5px 0;
+}
+
+.adet-kontrol {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.adet-btn {
+    padding: 5px 10px;
+    margin: 0 5px;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.adet-label {
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+.ekle-btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor:  pointer;
+}
